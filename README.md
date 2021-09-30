@@ -1,5 +1,7 @@
 # PoliMi homework
 
+Compiti ed esercizi in C svolti durante il corso di Fondamenti di Informatica al Politecnico di Milano
+
 ## Sequenza
 
 Scrivere un programma in C che chiede all'utente il raggio di un cerchio. Il programma calcola e visualizza l'area ed il perimetro di tale cerchio.
