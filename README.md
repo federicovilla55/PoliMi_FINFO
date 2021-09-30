@@ -17,3 +17,5 @@ Scrivere un programma in C che chiede all'utente due numeri interi. Il programma
 Scrivere un programma in C che chiede all'utente una numero in virgola mobile. Il programma calcola e visualizza su due righe separate la parte intera e quella decimale di tale numero. Per esempio nel caso in cui l'utente inserisce il numero 4.14, il programma visualizzerà 4  0.14
 
 Scrivere un programma in C che acquisisce un carattere da tastiera e lo visualizza. In seguito il programma chiede un altro carattere e lo visualizza. Scrivere un programma in C che conta quanti soldi ha nel portafogli l'utente. In particolare, l'algoritmo chiede all'utente il numero di banconote da 50, da 20, da 10 e da 5 euro, calcola la somma complessiva e la visualizza
+
+## Selezione
