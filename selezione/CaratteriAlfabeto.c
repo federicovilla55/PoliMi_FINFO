@@ -10,6 +10,6 @@ int main(){
 		c = c - 32;
 		printf("%c\n", c);
 	} else
-		printf("Errore, non e' stato inserito un carattere\n");
+		printf("Errore, non e' stato inserito una lettera dell'alfabeto\n");
 	return 0;
 }
