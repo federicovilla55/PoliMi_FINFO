@@ -1,3 +1,3 @@
-#Politecnico di Milano
+# Politecnico di Milano
 
 Materiale inerente al corso di Fondamenti di Informatica
