@@ -2,7 +2,7 @@
 int main(){
 	int n, i, j, spazi, tmp;
 	i = 0;
-	printf("Dimmi il numero di cui vuoi vedere la piramide:  ");
+	printf("Dimmi l'altezza della piramide:  ");
 	scanf("%d", &n);
 	spazi = (n-1)*2 + 1;
 	tmp = spazi;
