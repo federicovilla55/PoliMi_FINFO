@@ -1,3 +1,5 @@
+//Scrivere un programma che stampi a schermo una piramide di *
+// di altezza n definita dall'utente
 #include<stdio.h>
 int main(){
 	int n, i, j, spazi, tmp;
