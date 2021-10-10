@@ -21,5 +21,6 @@ int main(){
 		tmp = tmp - 2;
 		i=i+1;
 	}
+	printf("\n");
 	return 0;
 }

@@ -5,7 +5,7 @@ int main(){
 	for(i=0; i<DIM; i++){
 		arr[i]=5*i; /*Non avendo particolari richieste sul riempimento dell'array,
 		              ci inserisco la tabellina del 5 che comprende i valori
-		              da 5*0 a 5*19*/
+		                da 5*0 a 5*19*/
 	}
 	
 	for(i=0; i<(DIM/2); i++){
