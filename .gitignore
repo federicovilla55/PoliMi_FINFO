@@ -1,6 +1,7 @@
 homework/matrici/ruotaMatrice.c
 homework/matrici/ruotaMatrice
-.vscode/
+vscode/
+/vscode
 # Ignore all
 *
 
