@@ -1,7 +1,8 @@
 homework/matrici/ruotaMatrice.c
 homework/matrici/ruotaMatrice
-.vscode/
-/.vscode
+
+/node_modules/
+
 # Ignore all
 *
 
