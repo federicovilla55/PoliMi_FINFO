@@ -12,7 +12,7 @@ int main(){
 	i=0;
 	do{
 		printf("Inserire la dimensione del quadrato %d: ", i);
-		scnaf("%d", &dim[i]);
+		scanf("%d", &dim[i]);
 		i++;
 	}while(i<NQ);
 	for(i=0; i<NQ; i++){
@@ -24,7 +24,7 @@ int main(){
 void quadrato(int n){
 	int x, y;
 	for (x= 0; x<n; x++){
-		for(y=0; i<n; y++){
+		for(y=0; y<n; y++){
 			printf("* ");
 		}
 		printf("\n");

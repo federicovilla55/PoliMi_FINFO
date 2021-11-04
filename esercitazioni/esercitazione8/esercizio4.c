@@ -11,7 +11,7 @@ int main(){
 	
 	for (i=0; i<N; i++){
 		scanf("%d", &nums[i]);
-		if (numeroPerfetto(n) && max<nums[i])
+		if (numeroPerfetto(nums[i]) && max<nums[i])
 			max=nums[i];
 	}
 	if(!max){

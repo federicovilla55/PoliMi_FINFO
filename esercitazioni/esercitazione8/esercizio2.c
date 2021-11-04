@@ -11,7 +11,7 @@ infien chiedere all'utente il valore x...
 int potenza(int, int);
 
 int main(){
-	int grado, coeff[MAX_GRADO + 1], x, risultato, pot;
+	int i, grado, coeff[MAX_GRADO + 1], x, risultato;
 	
 	do{
 		scanf("%d", &grado);
