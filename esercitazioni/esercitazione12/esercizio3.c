@@ -14,7 +14,7 @@ int main(){
 	FILE *fp;
 	int n, min, minIndex;
 	min = 2021;
-	persone_t p[30];
+	persone_t p[DIM];
 
 	fp = fopen("persone.txt", "r");
 	
@@ -28,7 +28,7 @@ int main(){
 			}
 		}
 	}
-
+	
 	printf("Indice minore: %d\n", minIndex);
 
 	return 0;
