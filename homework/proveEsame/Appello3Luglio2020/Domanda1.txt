@@ -1,0 +1,14 @@
+Dati i due numeri A = −6110MS (MS=modulo e segno) e B = 11000012MS effettuare la conversione in base
+2, notazione complemento a 2, sul numero minimo di bit necessari a rappresentare entrambi gli operandi
+(indicare esplicitamente il numero minimo).
+Si effettuino quindi le operazioni A+B e A-B indicando esplicitamente se si verifica overflow o meno, e
+motivando la risposta. Mostrare i passaggi fatti.
+
+
+A = 1000011
+B = 1011111
+
+A+B = 0100010 che però presenta overflow: dalla somma di due numeri concordi (entrambi negativi),
+si è generato un numero positivo
+
+A-B = 1100100 e in questo caso non si è verificato overflow
