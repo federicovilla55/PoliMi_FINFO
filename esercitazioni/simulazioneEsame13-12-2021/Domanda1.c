@@ -23,7 +23,7 @@ int base8to10(char s[]){
 	for(i=1; s[i]!='\0'; i++)
 		c*=8;
 	for(i=0; s[i]!='\0' && ris!=-1; i++){
-		if(!(s[i]>='0' && s[i]<='8'))
+		if(!(s[i]>='0' && s[i]<='7'))
 			ris=-1;
 		else{
 			ris += (s[i]-'0')*c;
