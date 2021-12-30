@@ -1,9 +1,7 @@
-typedef struct nodo{
-	int val;
-	struct nodo *next;
-}nodo_t;
+#include<stdio.h>
+#include<stdlib.h>
+#include"liste.h"
 
-typedef nodo_t *Ptr_nodo;
 
 Ptr_nodo k_dalla_fine(Ptr_nodo l, int k){
 	int idx;
@@ -42,7 +40,7 @@ int main(){
 	l = inserisci_in_testa(5, l);
 	l = inserisci_in_testa(42, l);
 	l = inserisci_in_testa(3, l);
-	printf("%d\n", k_dalla_fine(l,2)->dato);
+	printf("%d\n", k_dalla_fine(l,2)->val);
 	free_list(l);
 	return 0;
 
